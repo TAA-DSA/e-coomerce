@@ -23,19 +23,16 @@ function App() {
   ];
 
   return (
-    <div className="contrainer-wrapper">
-      <div className="categories-container">
-        <div className="category-container">
-          {categories.map((cat) => {
-            return (
-              <div key={cat.id} className="category-body-container">
-                <h2>{cat.title}</h2>
-                <p>Shop Now</p>
-              </div>
-            );
-          })}
+    <div className="categories-container">
+      {categories.map(({ title, id }) => (
+        <div key={id} className="category-container">
+          <div className="background-image" />
+          <div className="category-body-container">
+            <h2>{title}</h2>
+            <p>Shop Now</p>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 }
