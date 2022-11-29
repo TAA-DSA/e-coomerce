@@ -1,5 +1,3 @@
-import "./category-component-styles.scss";
-
 const categories = [
   {
     id: 1,
