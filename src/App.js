@@ -1,4 +1,4 @@
-import Categories from "./components/Data/data";
+import Categories from "./components/Data/category-component";
 import CategoryItems from "./components/category-item/catrgory-item.component";
 
 function App() {
