@@ -1,4 +1,5 @@
 import Categories from "./components/Data/data";
+import "./components/Styles/categories.styles.scss";
 
 function App() {
   return (
