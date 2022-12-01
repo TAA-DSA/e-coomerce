@@ -5,8 +5,10 @@ import {
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-import { useEffect } from "react";
-import { getRedirectResult } from "firebase/auth";
+import SignUp from "../../signup-form/signup-form.component";
+
+// import { useEffect } from "react";
+// import { getRedirectResult } from "firebase/auth";
 
 const SignIn = () => {
   //   useEffect(() => {
@@ -32,6 +34,7 @@ const SignIn = () => {
       {/* <button onClick={signInWithGoogleRedirect}>
         Sign in with google redirect
       </button> */}
+      <SignUp />
     </div>
   );
 };
